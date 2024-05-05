@@ -4,3 +4,14 @@ body {
     overflow-y: scroll;
     background: #070411;
 }
+
+.nav{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    letter-spacing: 0.2em;
+    font-style: italic;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    justify-content: center;
+}
