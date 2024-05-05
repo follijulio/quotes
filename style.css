@@ -5,6 +5,10 @@ body {
     background: #070411;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
 .nav{
     height: 10rem;
     width: 100%;
