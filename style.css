@@ -1,31 +1,56 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    overflow-y: scroll;
-    background: #070411;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  background: #070411;
 }
 
 .no-scrollbar::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.nav{
-    height: 10rem;
-    width: 100%;
-    display: flex;
-    color: aliceblue;
-    letter-spacing: 0.2em;
-    font-style: italic;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    justify-content: center;
+.nav {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  color: aliceblue;
+  letter-spacing: 0.2em;
+  font-style: italic;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  justify-content: center;
 }
 
-.quotes{
-    text-align: justify;
-    text-wrap: wrap;
-    margin: 100px;
-    color: aliceblue;
-    letter-spacing: 0.2em;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-style: italic;
+.quotes {
+  height: 15rem;
+  text-align: justify;
+  text-wrap: wrap;
+  margin: 100px;
+  color: aliceblue;
+  letter-spacing: 0.2em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-style: italic;
+}
+
+.button_area {
+  display: flex;
+  justify-content: center;
+}
+
+.button_area button {
+  border: #070411;
+  background-color: lightslategrey;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #070411;
+  letter-spacing: 0.2em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-style: italic;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 20px;
 }
