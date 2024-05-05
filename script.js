@@ -84,3 +84,12 @@ const quotes = [
       author: "Sócrates"
     },
   ];
+  
+
+let randon_index = parseInt(Math.random() * 20);
+
+const quote = document.querySelector(".quote");
+const author = document.querySelector(".author");
+
+author.textContent = quotes[randon_index].author
+quote.textContent = '"' + quotes[randon_index].text + '"';
